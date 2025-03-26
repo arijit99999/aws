@@ -4,6 +4,6 @@ WORKDIR /app
 
 COPY . /app 
 
-RUN apt-get update && apt-get install -y bash && pip install -r requirements.txt
+RUN sudo apt-get update && sudo apt upgrade -y && pip install -r requirements.txt
 
 CMD ["python3","app.py"]

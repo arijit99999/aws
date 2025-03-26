@@ -6,7 +6,7 @@ on:
 
 env:
   AWS_REGION: ${{ secrets.AWS_REGION }}
-  ECR_REPOSITORY: flightprice/demo_aws
+  ECR_REPOSITORY: ml/aws
   CONTAINER_NAME: flight_price_prediction # These environment variables are used throughout the workflow.
 
 permissions:
